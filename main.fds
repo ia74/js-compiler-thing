@@ -1,3 +1,7 @@
-say("hi", "hello", "greetings");
+set(%var, "hello");
+print_buffer_push("hi", %var, "", "greetings");
+print_buffer_flush;
+
+%var
 
 exit(2);
